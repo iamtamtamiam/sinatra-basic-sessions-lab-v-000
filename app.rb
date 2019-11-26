@@ -15,7 +15,8 @@ class App < Sinatra::Base
     session[params.keys.first] = params.values.first
     @item = Items.new(params)
     erb :checkout
-
+    
+    binding.pry
   end 
   
 end
