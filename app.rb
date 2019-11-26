@@ -16,7 +16,7 @@ class App < Sinatra::Base
     @item = Items.new(params)
     erb :checkout
     
-    binding.pry
+  
   end 
   
 end
